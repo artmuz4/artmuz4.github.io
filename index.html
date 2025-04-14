@@ -1,1 +1,420 @@
-asdasd
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="ArMuProject">
+        <meta property="og:title" content="ArMuProjectг">
+        <meta property="og:description" content="ArMuProject ">
+        <meta name="keywords" content="ArMuProject">
+        <meta property="og:image" content="./assets/img/logo.png">
+        <link rel="shortcut icon" href="./assets/img/logo.png" type="png" />
+        <title>ArMuProject</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./assets/scss/app.css?v=1" />
+    </head>
+    <body oncontextmenu="return false;">
+        <div class="mobile-menu">
+            <div class="menu">
+                <img class="close" src="./assets/img/close.svg" alt="" />
+                <a href="#cloud_info">Преимущества</a>
+                <a href="#tariff_plans">Тарифы</a>
+				<a href="#feedbacks">Отзывы</a>
+                <a href="https://t.me/amp_artmuz" class="btn">Автор</a>
+            </div>
+        </div>
+        <div class="overflow-hidden">
+            <div class="header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 col-lg-3">
+                            <a href="/" class="logo">
+                                <img src="./assets/img/logo.png" alt="" />
+                                <img
+                                    class="hover"
+                                    src="./assets/img/logo-hover.png"
+                                    alt=""
+                                />
+                            </a>
+                        </div>
+                        <div class="col-6 mobile-show">
+                            <div class="mobile-menu-btn">
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3 7H21"
+                                        stroke="#fff"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                    />
+                                    <path
+                                        d="M9.48999 12H21"
+                                        stroke="#fff"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                    />
+                                    <path
+                                        d="M3 12H5.99"
+                                        stroke="#fff"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                    />
+                                    <path
+                                        d="M3 17H21"
+                                        stroke="#fff"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="menu">
+                                <a href="#cloud_info">Преимущества</a>
+                                <a href="#tariff_plans">Тарифы</a>
+								<a href="#feedbacks">Отзывы</a>
+                            </div>
+                        </div>
+                        <div class="col-3 d-flex justify-content-end">
+                            <a
+                                href="https://t.me/amp_artmuz"
+                                class="default-btn header-btn"
+                                >Автор</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome">
+                <div class="mask"></div>
+                <div class="container">
+                    <p class="content g-font">
+                        Хостинг для <br />
+                        <span id="typewrite"></span>
+                    </p>
+                </div>
+                <div class="arrows" id="scroll_down">
+                    <img src="./assets/img/arrow.svg" alt="" />
+                    <img src="./assets/img/arrow.svg" alt="" />
+                    <img src="./assets/img/arrow.svg" alt="" />
+                </div>        
+            </div>
+            <div class="cloud-info" id="cloud_info">
+                <div class="container">
+                    <div class="row wrap reverse">
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info1-img.png" alt="" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text right">
+                                Мощное оборудование, которое постоянно
+                                обеспечивает стабильную работу всех ваших
+                                ресурсов
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info1-num.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="row wrap">
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info2-num.png" alt="" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text">
+                                Защита от DDoS атак на уровне фильтрации L3-L7 от
+                                RS-Media
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info2-img.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="row wrap reverse">
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info3-img.png" alt="" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text right">
+                                Быстрая и оперативная поддержка, ответит на
+                                любой ваш вопрос и поможет решить трудную
+                                проблему
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <img src="./assets/img/info3-num.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tariff-plans" id="tariff_plans">
+                <div class="container">
+                    <p class="title g-font">Тарифные планы</p>
+                    <div class="plans">
+                        <div class="card green">
+                            <p class="name g-font">Хостинг для сайтов</p>
+                            <div class="options">
+                                <p>ispmanager</p>
+                                <p>от 49 ₽ / месяц</p>
+                            </div>
+                            <p class="text">
+                                Тарифные планы для ваших сайтов/CMS/форумов  
+                                по очень низким ценам. Используется отечественная панель 
+                                управления ISPmanager 6. Локация: Россия.
+                            </p>
+                            <p class="text disabled mt-1">
+                                 Техническия поддержка 24/7 • Аптайм 100% •
+                                SSL бесплатно
+                            </p>
+                            <p class="text disabled mt-5">
+                                Минимальная конфигурация — сайтов 1 шт,
+                                баз данных 1 шт, диск 2 ГБ
+                            </p>
+                            <a
+                                href="redirect/index.html"
+                                class="btn green"
+                                >Выбрать конфигурацию</a
+                            >
+                        </div>
+						<div class="card">
+                            <p class="name g-font">VPN-сервис</p>
+                            <div class="options">
+                                <p>сеть до 10 гбит/с</p>
+                                <p>от 49 ₽ / месяц</p>
+                            </div>
+                            <p class="text">
+                                Высокоскоростные серверы на базе
+                                мощного процессора и сети до 10 гбит/с.
+                                Сервис для входа на заблокированные
+								сайты, анонимности и т.д. Локация: Нидерланды.
+                            </p>
+                            <p class="text disabled mt-1">
+                                Техническия поддержка 24/7 • Аптайм 100% •
+                                Высокая скорость
+                            </p>
+                            <p class="text disabled mt-5">
+                                Минимальная конфигурация — 30 ГБ Лимит
+                                трафика, сеть до 10 гбит/с
+                            </p>
+                            <a
+                                href="redirect/index.html"
+                                class="btn"
+                                >Выбрать конфигурацию</a
+                            >
+                        </div>
+                </div>
+            </div>
+                <div class="feedbacks" id="feedbacks">
+                    <div class="container">
+                        <p class="title g-font">Отзывы клиентов</p>
+                    </div>
+                    <div class="container">
+                        <div class="swiper-button-prev">
+                            <svg
+                                    width="27"
+                                    height="17"
+                                    viewBox="0 0 27 17"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        d="M1.10703 7.58847C0.676959 8.01855 0.676959 8.71583 1.10703 9.1459L8.11544 16.1543C8.54551 16.5844 9.2428 16.5844 9.67287 16.1543C10.1029 15.7242 10.1029 15.027 9.67287 14.5969L3.44317 8.36719L9.67287 2.13749C10.1029 1.70742 10.1029 1.01013 9.67287 0.580062C9.2428 0.149991 8.54551 0.149991 8.11544 0.580062L1.10703 7.58847ZM1.88574 9.46845H26.8478V7.26592H1.88574V9.46845Z"
+                                        fill="white"
+                                />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg
+                                    width="27"
+                                    height="17"
+                                    viewBox="0 0 27 17"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        d="M26.6265 9.1459C27.0566 8.71583 27.0566 8.01855 26.6265 7.58847L19.6181 0.580062C19.188 0.149991 18.4907 0.149991 18.0606 0.580062C17.6306 1.01013 17.6306 1.70742 18.0606 2.13749L24.2903 8.36719L18.0606 14.5969C17.6306 15.027 17.6306 15.7242 18.0606 16.1543C18.4907 16.5844 19.188 16.5844 19.6181 16.1543L26.6265 9.1459ZM0.885742 9.46845H25.8478V7.26592H0.885742V9.46845Z"
+                                        fill="white"
+                                />
+                            </svg>
+                        </div>
+                        <div class="swiper" id="feedbacks_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <p class="name">ArMuProject</p>
+                                        <p class="text">
+                                            Тут пока пусто...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-xxl-3">
+                            <div class="copyright">
+                                <img
+                                    src="./assets/img/footer-logo.png"
+                                    alt=""
+                                />
+                                <p>
+                                    Разработка web-сайта<br />
+                                    хостинга. 2025 г.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-xxl-6">
+                            <div class="footer-nav">
+                                <div class="group">
+                                    <p class="name">Тех. поддержка</p>
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка поддержка 1</a
+                                    >
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка поддержка 2</a
+                                    >
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка поддержка 3</a
+                                    >
+                                </div>
+                                <div class="group">
+                                    <p class="name">Документация</p>
+                                    <a
+                                        target="_blank"
+                                        href="about.html"
+                                        >О проекте</a
+                                    >
+                                </div>
+                                <div class="group">
+                                    <p class="name">Ссылки</p>
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка 1</a
+                                    >
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка 2</a
+                                    >
+                                    <a
+                                        target="_blank"
+                                        href="redirect/index.html"
+                                        >Ссылка 3</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+
+
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    
+        function redirectToGoogle() {
+            window.location.href = "https://";
+        }
+    
+        const checkDevTools = () => {
+            const widthThreshold = window.outerWidth - window.innerWidth > 160;
+            const heightThreshold = window.outerHeight - window.innerHeight > 160;
+    
+            if (widthThreshold || heightThreshold) {
+                redirectToGoogle();
+            }
+        };
+    
+        checkDevTools();
+    
+        window.addEventListener('resize', checkDevTools);
+    
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                redirectToGoogle();
+                return false;
+            }
+    
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                redirectToGoogle();
+                return false;
+            }
+    
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                redirectToGoogle();
+                return false;
+            }
+    
+            if (e.ctrlKey && e.keyCode == 85) {
+                redirectToGoogle();
+                return false;
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.20.1/core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js?v=1"></script>
+  
+</html>
