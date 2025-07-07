@@ -24,7 +24,7 @@ var typewriter = new Typewriter(twrite, {
     cursor: "",
 });
 
-let write_delay = 10000; // 60 sec
+let write_delay = 500; // 60 sec
 
 var mask = $(".welcome .mask");
 
@@ -32,16 +32,16 @@ typewriter
     /*.callFunction(() => {
         mask.removeClass("hide");
     })*/
-    .typeString(`<span class="type">By. ArtMuz</span>`)
+    .typeString(`<span class="type">22</span>`)
     .pauseFor(write_delay)
     .deleteAll()
     /*.callFunction(() => {
         mask.addClass("hide");
     })*/
-    .typeString(`<span class="type green">Каждого</span>`)
+    .typeString(`<span class="type green">больница </span>`)
     .pauseFor(write_delay)
     .deleteAll()
-    .typeString(`<span class="type yellow">Вас</span>`)
+    .typeString(`<span class="type yellow">хуйня</span>`)
     .pauseFor(write_delay)
     .deleteAll()
     .start();
