@@ -32,16 +32,13 @@ typewriter
     /*.callFunction(() => {
         mask.removeClass("hide");
     })*/
-    .typeString(`<span class="type">22</span>`)
+    .typeString(`<span class="type">by. ArtMuz</span>`)
     .pauseFor(write_delay)
     .deleteAll()
     /*.callFunction(() => {
         mask.addClass("hide");
     })*/
-    .typeString(`<span class="type green">больница </span>`)
-    .pauseFor(write_delay)
-    .deleteAll()
-    .typeString(`<span class="type yellow">хуйня</span>`)
+    .typeString(`<span class="type green">для вас</span>`)
     .pauseFor(write_delay)
     .deleteAll()
     .start();
