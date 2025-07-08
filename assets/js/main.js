@@ -24,7 +24,7 @@ var typewriter = new Typewriter(twrite, {
     cursor: "",
 });
 
-let write_delay = 500; // 60 sec
+let write_delay = 1000; // 60 sec
 
 var mask = $(".welcome .mask");
 
